@@ -1,0 +1,71 @@
+.formulario {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to bottom,
+  rgb(  13, 7, 106 ,.6),
+  rgba( 11, 63, 135 , .6),
+  rgba( 13, 126, 149 , .45)
+  ), url(../../../assets/img/intro-bg1.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 2.3rem;
+}
+
+.formulario h1 {
+  color: rgba( 204, 101, 20 );
+  text-transform: uppercase;
+  padding-top: 2.6rem;
+  padding-bottom: 2.6rem;
+  text-align: center;
+}
+
+.container h3 {
+  color: rgba( 204, 101, 20 );
+  text-align: left;
+}
+
+.container p {
+  color: rgb(241, 231, 224);
+  text-align: justify;
+}
+
+.form-group label {
+  color: rgba( 204, 101, 20 );
+}
+
+.titulo-2 {
+  padding-bottom: 1.6rem;
+}
+
+.list-ico li {
+  color:  rgb(241, 231, 224);
+  text-align: justify;
+}
+
+.list-ico img {
+  padding-right: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.footer {
+  padding-top: 3.6rem;
+  padding-bottom: 1.3rem;
+
+}
+
+.titulo-foo h3 {
+  text-align: center;
+}
+
+.titulo-foo p {
+  text-align: center;
+}
+
+.list-ico-foo img {
+  display: inline-flex;
+  margin-bottom: auto;
+  justify-content: space-between;
+  align-items: center;
+
+}
