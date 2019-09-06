@@ -25,6 +25,12 @@
 
 }
 
+.about-info {
+  margin-top: 1.6rem;
+  margin-left: 1.3rem;
+  margin-right: 0.3rem;
+}
+
 .about-info p{
   color: rgba( 11, 47, 79 );
   text-transform: capitalize;
@@ -46,7 +52,7 @@
 
 .title-s {
   font-weight: 600;
-  color: #1e1e1e;
+  color: rgba(124, 60, 11);
   font-size: 1.1rem;
 }
 
@@ -56,6 +62,7 @@
   text-align: justify;
   padding-right: 1.6rem;
   padding-left: 1.6rem;
+  font-size: medium;
 }
 
 .feature .service-ico {
@@ -170,17 +177,29 @@
 
 .portafolio .photos {
   padding-bottom:20px;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  justify-items: center;
+
 }
 
 .portafolio .item {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  padding-top: 0.6rem;
   padding-bottom:30px;
-
+  box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+  margin-bottom: 45px;
+  margin-left: 45px;
+  margin-right: 45px;
+  overflow: hidden;
+  flex-wrap: wrap;
 }
 /* fin Galeria de portafolio*/
 /* experiencia*/
 
 .experiencia .card{
-
+  box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
  padding-bottom: 1.2rem;
 }
 
@@ -195,3 +214,33 @@
 .experiencia {
   padding-bottom: 3.6rem;
 }
+
+
+/* progressbar */
+.skill-mf span {
+  color: #4e4e4e;
+}
+
+.skill-mf .progress {
+  background-color: #cde1f8;
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #0078ff;
+}
+
+.skill-mf {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+
+}
+
+.pull-right {
+  color: #1d4470
+}
+
+/* progressbar */
